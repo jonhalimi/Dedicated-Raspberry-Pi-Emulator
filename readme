@@ -1,9 +1,14 @@
 Dedicated Emulation Console
 
 Project Overview
-A low-power, dedicated hardware emulation console capable of running classic games automatically on boot.
+A low-power, dedicated hardware emulation running Linux Mint.
 
 Hardware Stack
 1. SBC: Raspberry Pi 5 (4GB)
 2. Cooling: Active Cooler
-3. OS: Linux Mint
+3. OS: Linux Mint / Batocera 
+
+Software Setup
+1. Flashes base Linux Mint / Batocera OS image to storage.
+2. Executes `firmware/setup.sh` to configure system packages and dependencies.
+3. Sets up display scaling and auto-start configurations.
