@@ -1,11 +1,9 @@
-# Raspberry Pi Emulation Console
+# Dedicated Emulation Console
 
-### Bill of Materials (Parts List)
-* **SBC:** Raspberry Pi 5 (4GB) - $60
-* **Cooling:** Raspberry Pi 5 Active Cooler - $12
-* **Power:** Official 27W USB-C Power Supply - $12
-* **Storage:** SanDisk 128GB MicroSD Card - $15
-* **Cable & Case:** Micro-HDMI to HDMI Cable + Basic Enclosure - $15
-* **Controller:** USB / 2.4GHz Retro Gamepad - $15
+## Project Overview
+A low-power, dedicated hardware emulation console capable of running classic games automatically on boot.
 
-**Total Estimated Budget:** ~$129
+## Hardware Stack
+* SBC: Raspberry Pi 5 (4GB)
+* Cooling: Active Cooler
+* OS: Linux Mint / Batocera
