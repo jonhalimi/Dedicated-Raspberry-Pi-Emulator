@@ -1,10 +1,9 @@
-#!/bin/bash
-# Configuration script for Linux Mint / Emulator Auto-boot
-echo "Updating packages..."
+#!/usr/bin/env bash
+set -e 
+
+echo "Setting up..."
 sudo apt update && sudo apt upgrade -y
-
-echo "Installing RetroArch and EmulationStation..."
-flatpak install flathub org.libretro.RetroArch -y
-flatpak install flathub org.es_de.emulationstation-desktop-edition -y
-
-echo "Setup complete! Set EmulationStation to run on startup."
+sudo apt install -y git curl build-essential micro retroarch
+echo "arm_boost=1" | sudo tee -a /boot/firmwae/config.txt
+sudo autologin-config enable $USER
+echo "Emulation ready! Launching now..."
