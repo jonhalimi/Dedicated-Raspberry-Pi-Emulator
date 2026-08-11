@@ -3,6 +3,8 @@ Dedicated Emulation Console
 Project Overview
 A low-power, dedicated hardware emulation running Linux Mint.
 
+This project is built to allow emulation on raspberry pi running linux mint and configured to auto-boot directly into an emulation enviorment, it focuses on thermal efficiency and clean background process mangment to ensure that u get stable FPS without high power draw.
+
 Hardware Stack
 1. SBC: Raspberry Pi 5 (4GB)
 2. Cooling: Active Cooler
